@@ -1,0 +1,121 @@
+.container{
+	view,text,image{
+		box-sizing: border-box;
+	}
+	scroll-view{
+		width: 96%;
+		white-space: nowrap;
+		height: 120upx;
+		background-color: #fff;
+		position: relative;
+		padding-top: 10px;
+
+		&::after{
+			background: #e5e5e5;
+			content: '';
+			display:block;
+			width: 100%;
+			height: 1px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			transform:scaleY(0.5);
+		}
+		.flex-box{
+				display: inline-block;
+				height: 60px;
+				width: 25%;
+				margin: 0 7upx 0 7upx;
+				box-sizing: border-box;
+
+			&.active{
+				.date-box{
+					 border: none;
+					.days{
+						font-weight: bold;
+						color: #818181;
+					}
+					.date{
+						font-weight: bold;
+						color: #818181;
+					}
+				}
+			}
+			.date-box{
+				border: none;
+				display: flex;
+				height: 50px;
+				flex-direction: column;
+				align-items: center;
+				justify-content: space-around;
+				font-size: 30upx;
+				color: rgba(129, 129, 129, 1);
+				.date{
+					font-weight: bold;
+					color: #818181;
+					font-size: 30upx;
+				}
+				.small-date {
+					font-size: 24upx;
+				}
+			}
+		}
+		
+	}
+	.time-box{
+		// padding:28upx 12upx 26upx;
+		display: flex;
+		flex-wrap: wrap;
+		margin-top:20upx;
+		background-color:#fff;
+		.item{
+			width: 25%;
+			padding: 0 9upx;
+			margin:10px 0;
+			&-box{
+				width: 100%;
+				height: 68upx;
+				padding:0 4upx;
+				background: #fff;
+				color: #333;
+				border: 1px solid #EEEEEE;
+				font-size: 24upx;
+				border-radius: 10upx;
+				display: flex;
+				// flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				&.disable{
+					background: #F1F3F6 !important;
+					color: #999 !important;
+					// border: 1px solid #EEEEEE;
+				}
+				&.active{
+					// background: #0094D7;
+					border: 1px solid #FB5D6B;
+					font-weight: bold;
+				}
+				.all{
+					font-size: 22upx;
+					padding-top: 5px;
+				}
+			}
+		}
+	}
+	
+	.icon-arrow {
+	            position: fixed;
+	            right: 0upx;
+	            top: 220upx;
+	            width: 60upx;
+	            height: 184upx;
+	            background: #fff;
+	            font-size: 40upx;
+	            display: flex;
+	            align-items: center;
+	            font-weight: bold;
+	            padding-right: 14upx;
+	    
+	}
+	
+}

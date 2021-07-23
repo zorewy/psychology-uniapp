@@ -1,0 +1,259 @@
+{
+	"easycom": {
+	  "autoscan": true,
+	  "custom": {
+	    "uni-(.*)": "@/components/uni-$1/uni-$1.vue",
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	  }
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "湘智慧心理"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/course-details/course-details",
+			"style": {
+				"navigationBarTitleText": "课程详情"
+			}
+		},
+		{
+			"path": "pages/tutor-list/tutor-list",
+			"style": {
+				"navigationBarTitleText": "咨询师列表"
+			}
+		}, {
+			"path": "pages/tutor-introduced/tutor-introduced",
+			"style": {
+				"navigationBarTitleText": "咨询师信息"
+			}
+		},
+		{
+			"path": "pages/course-list/course-list",
+			"style": {
+				"navigationBarTitleText": "课程列表"
+			}
+		},
+		{
+			"path": "pages/beforehand/beforehand",
+			"style": {
+				"navigationBarTitleText": "预约时间"
+			}
+		},
+		{
+			"path": "pages/album/album",
+			"style": {
+				"navigationBarTitleText": "相册"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/my-course/my-course",
+			"style": {
+				"navigationBarTitleText": "我的课程"
+			}
+		}
+		, {
+			"path": "pages/appointment/appointment",
+			"style": {
+				"navigationBarTitleText": "预约信息",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/confirm-order-form/confirm-order-form",
+			"style": {
+				"navigationBarTitleText": "提交订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/course-order/course-order",
+			"style": {
+				"navigationBarTitleText": "订单列表",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "我的消息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/message-details/message-details",
+			"style": {
+				"navigationBarTitleText": "消息详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+		    "path" : "pages/list-page/list-page",
+		    "style" : {
+							"navigationBarTitleText": "分类"
+						}
+		},
+		{
+            "path" : "pages/article-list/article-list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "主题阅读",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/article-detail/article-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文章详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my-collection/my-collection",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my-follow/my-follow",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的关注",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/content-detail/content-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "课程详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/assess-list/assess-list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "测评列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/assess-detail/assess-detail",
+            "style" :                               
+            {
+                "navigationBarTitleText": "测评详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/web-view/web-view",
+            "style" :             
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/evaluate/evaluate",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "评价",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/order-detail/order-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/comment/comment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/assess-order/assess-order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "zsffzxkc",
+		"navigationBarBackgroundColor": "#4b89ff",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#333",
+		"selectedColor": "#2e72fd",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"fontSize": "12px",
+		"iconWidth": "20px",
+		"spacing": "5px",
+		"height": "60px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "./static/tabbar/index_tabbar.png",
+				"selectedIconPath": "./static/tabbar/index_tabbar_select.png"
+			},
+			{
+				"pagePath": "pages/tutor-list/tutor-list",
+				"text": "咨询",
+				"iconPath": "./static/tabbar/zixun_tabbar.png",
+				"selectedIconPath": "./static/tabbar/zixun_tabbar_select.png"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"text": "消息",
+				"iconPath": "./static/tabbar/xiaoxi_tabbar.png",
+				"selectedIconPath": "./static/tabbar/xiaoxi_tabbar_select.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "./static/tabbar/my_tabbar.png",
+				"selectedIconPath": "./static/tabbar/my_tabbar_select.png"
+			}
+		]
+	}
+}

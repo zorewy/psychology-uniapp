@@ -1,0 +1,20 @@
+.empty{
+  margin-top: 40rpx;
+  height: 440rpx;
+  padding: 20rpx;
+  width: 100vw;
+  box-sizing: border-box;
+ }
+ .empty image{
+  display: block;
+  width: 320rpx;
+  height: 380rpx;
+  margin: 40rpx auto;
+ }
+ .empty text{
+   display: block;
+   width: 100%;
+   text-align: center;
+   font-size: 26rpx;
+   color: #666;
+ }
